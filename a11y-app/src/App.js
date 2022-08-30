@@ -5,9 +5,7 @@ import './App.css';
 function Todo({ todo, index, markTodo, removeTodo }) {
   return (
     <div
-      className="todo"
-      
-    >
+      className="todo">
       <span style={{ textDecoration: todo.isDone ? "line-through" : "" }}>{todo.text}</span>
       <div>
         <button className="outline-success" onClick={() => markTodo(index)}>✓</button>{' '}
@@ -68,9 +66,11 @@ function App() {
       <header className="App-header">
         <h3>TODO List </h3>
         <FormTodo addTodo={addTodo} />
-        <img src={logo} className="App-logo" />
+        <img src={logo}
+          alt="An alternate text for an image."
+          title="An alternate text for an image."
+          className="App-logo" />
         <div>
-          <ul>
           {todos.map((todo, index) => (
                 <Todo
                 key={index}
@@ -80,7 +80,6 @@ function App() {
                 removeTodo={removeTodo}
                 />
           ))}
-          </ul>
         </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
