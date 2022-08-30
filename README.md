@@ -4,7 +4,7 @@ Slides: https://docs.google.com/presentation/d/1LNsP-31L3onwooG12NhHXy6e0YfGtzoy
 
 ## Resources ##
 * Git
-Windows: Git for Windows 
+Windows: Git for Windows
 Mac or Unix: do nothing, git’s already installed
 
 * Code editor.
@@ -24,10 +24,10 @@ https://code.visualstudio.com/
 Windows: Ctrl + Shift + I
 Mac: Command + Option + I
 * Select Accessibility and generate report
-* Answer the following: 
+* Answer the following:
 * What is the accessibility score?
 * What kind of errors did the audit find?
-* What kind of errors did the audit not find? 
+* What kind of errors did the audit not find?
 
 ## Part 2 - Unit Testing with Jest-Axe
 
@@ -40,7 +40,7 @@ If you’re unable to get the project up and running, use the code pen instead: 
 * How many errors are found?
 
 ## Exercise 2.2 - Change the configuration
-* Configure the tests to ignore the errors.  
+* Configure the tests to ignore the errors.
 * Tip: read the documentation https://github.com/nickcolley/jest-axe
 
 ## Exercise 2.3 - Fix the errors
@@ -53,7 +53,7 @@ If you’re unable to get the project up and running, use the code pen instead: 
 * Open cypress with `npx cypress open`
 
 ## Exercise 3.2 - Change the configuration
-* Configure the tests to ignore the errors.  
+* Configure the tests to ignore the errors.
 * Tip: read the documentation: https://github.com/component-driven/cypress-axe
 
 ## Exercise 3.3 Write your own test
